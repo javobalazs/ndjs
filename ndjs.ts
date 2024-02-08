@@ -4,7 +4,7 @@ import { click, domEvent, mouseleave, change, hashchange } from "@most/dom-event
 import { newDefaultScheduler } from "@most/scheduler";
 import { Set, ValueObject, hash } from "immutable";
 import { cse, expandCse } from "./json-with-sharing";
-import { compressToEncodedURIComponent, decompressFromEncodedURIComponent } from "lz-string";
+import { compressToEncodedURIComponent, decompressFromEncodedURIComponent } from "./lz-string.js";
 
 type Json = any;
 
