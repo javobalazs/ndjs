@@ -46,6 +46,7 @@
     },
     "files": [
         "ndjs.ts",
-        "json-with-sharing.ts"
+        "json-with-sharing.ts",
+        "lz-string.ts"
     ]
 }
